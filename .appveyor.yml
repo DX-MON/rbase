@@ -14,7 +14,7 @@ configuration:
   - Retail
 
 install:
-  - git clone --depth 1 https://github.com/milostosic/build ..\build
+  - git clone --depth 1 https://github.com/DX-MON/build ..\build
   - ..\build\tools\windows\genie --file=genie\genie.lua %TOOLSET%
 
 build:
